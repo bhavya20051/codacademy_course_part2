@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Apr 20 20:53:40 2020
+
+@author: bhavy
+"""
+
+
+#Write your function here
+def exponents(bases, powers):
+  new_lst = []
+  for base in bases:
+    for power in powers:
+      new_lst.append(base ** power)
+  return new_lst
+
+#Uncomment the line below when your function is done
+print(exponents([2, 3, 4], [1, 2, 3])) 

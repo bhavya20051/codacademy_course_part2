@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Apr 13 20:29:58 2020
+
+@author: bhavy
+"""
+
+
+ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+for i in ages:
+  if i<21:
+    continue
+  print(i)

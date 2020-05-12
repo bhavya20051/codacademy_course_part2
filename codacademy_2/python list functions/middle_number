@@ -1,0 +1,10 @@
+def middle_element(lst):
+  odd_answer=(lst[len(lst)/2])
+  even_answer=(lst[(len(lst)/2)-1])+(lst[len(lst/2)])
+  if (len(lst)% 2)==1:
+    return odd_answer
+  else:
+    return(even_answer)/2
+
+#Uncomment the line below when your function is done
+print(middle_element([5, 2, -10, -4, 4, 5]))
